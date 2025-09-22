@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, render_template, redirect, url_for
 import requests
 import csv
@@ -8,7 +9,7 @@ app = Flask(__name__)
 # API info
 API_URL = "https://plant-hardiness-zone.p.rapidapi.com/zipcodes/{}"
 HEADERS = {
-    "X-RapidAPI-Key": "YOUR_API_KEY_HERE",  # removed for security
+    "X-RapidAPI-Key": os.getenv("RAPIDAPI_KEY", ""),
     "X-RapidAPI-Host": "plant-hardiness-zone.p.rapidapi.com"
 }
 
