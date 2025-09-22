@@ -1,4 +1,5 @@
 # Plant Hardiness Zone Lookup App  
+Live Demo: https://plant-zone-app.onrender.com/
 This is a simple Flask web app that lets users look up U.S. plant hardiness zones by ZIP code using the Plant Hardiness Zone API. It supports multiple lookups and lets you save the results to a CSV file.  
 
 ![Preview](Preview.png)
@@ -6,7 +7,7 @@ This is a simple Flask web app that lets users look up U.S. plant hardiness zone
 ## Features  
 - Enter any U.S. ZIP code to get its plant hardiness zone  
 - View a list of previous lookups  
-- Save all results to a CSV file with one click  
+- Save all results to a CSV file with one click
 
 ## How to Run Locally  
 1. **Clone or download** this repo  
